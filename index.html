@@ -16,25 +16,45 @@
     />
 </head>
 <body>
+    
      <script src="https://unpkg.com/scrollreveal"></script>  <!--Scrollrevealjs.com -->
      <header class="p_header">
         <nav class="navigation grid_box">
             <div>
                 <a href="#" class="header_logo">Kanan Huseynli</a>
             </div>
-            <div class="nav_menu">
+            <div id="nav-menu" class="nav_menu">
                 <ul class="list">
-                    <li class="item"><a href="#" class="link">Home</a></li>
-                    <li class="item"><a href="#" class="link">About Me</a></li>
-                    <li class="item"><a href="#" class="link">Skills</a></li>
-                    <li class="item"><a href="#" class="link">Projects</a></li>
-                    <li class="item"><a href="#" class="link">Contact</a></li>
+                    <li class="item"><a href="#" class="nav_link selected">Home</a></li>
+                    <li class="item"><a href="#" class="nav_link">About Me</a></li>
+                    <li class="item"><a href="#" class="nav_link">Skills</a></li>
+                    <li class="item"><a href="#" class="nav_link">Projects</a></li>
+                    <li class="item"><a href="#" class="nav_link">Contact</a></li>
                 </ul>
             </div>
-            <div class="menu_icon">
+            <div class="menu_icon" id="menu-icon">
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
      </header>
+
+     <main>
+         <section class="home grid_box">
+             <div class="values">
+                <h1 class="h_title">Hi, <br> My name is <br> <span class="colored_name">Kanan Huseynli.</span> </h1>
+                <a href="#" class="btn">Contact me</a>
+             </div>
+             <div class="sm_links">
+                 <div class="sm_icon"><i class="fab fa-linkedin-in"></i></div>
+                 <div class="sm_icon"><i class="fab fa-github"></i></div>
+                 <div class="sm_icon"><i class="fab fa-figma"></i></div>
+                 <div class="sm_icon"><i class="far fa-envelope"></i></div>
+             </div>
+             <div class="portfolio_image">
+                 <img class="photo" src="image/portfolio_image.jpeg" alt="myPhoto">
+             </div>
+         </section>
+     </main>
+     <script src="main.js"></script>
 </body>
 </html>

@@ -23,11 +23,12 @@
     .nav_menu{
         position: fixed;
         top: 65px;
-        right: 0;
-        width: 78%;
-        height: 100%;
+        right: -100%;
+        width: 70%;
+        height: 25%;
         padding: 32px;
         background-color: white;
+        border-bottom-left-radius: 20px;
     }
 }
 html{
@@ -46,6 +47,10 @@ a{
     text-decoration: none;
 }
 
+section{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
 .p_header{
     width: 100%;
     position: fixed;
@@ -70,4 +75,111 @@ a{
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
+}
+
+.header_logo{
+    color: white;
+    font-size: 17px;
+}
+.menu_icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.item{
+    margin-bottom: 30px;
+}
+
+.nav_link{
+    position: relative;
+    color: #1b2437; 
+}
+
+.nav_link:hover{
+    position: relative;
+}
+
+.nav_link:hover::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 30px;
+    width: 100%;
+    height: 3px;
+    background-color: #1b2437;
+}
+
+.selected::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 30px;
+    width: 100%;
+    height: 3px;
+    background-color: #1b2437;
+}
+
+.opened{
+    right: 0;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 10000000px;
+    border: 5px solid #ffcb36;
+}
+.portfolio_image{
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    right: 15px;
+    bottom: 0;  
+    
+}
+
+.home{
+    height: calc(100vh - 45px);
+    row-gap: 15px;
+}
+
+.values{
+    align-self: center;
+}
+
+.h_title{
+    margin-bottom: 40px;
+    font-size: var(--h1-size);
+    line-height: 3.3rem;
+}
+
+.colored_name{
+    color: #ffcb36;
+    font-weight: 600;
+}
+
+.sm_links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.sm_icon{
+    width: max-content;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sm_icon:hover{
+    color: #ffcb36;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ffcb36;
+    color: white;
+    stroke: #1b2437;
+    padding: 15px 45px;
+    font-weight: 500;
+    border-radius: 10px;
 }
