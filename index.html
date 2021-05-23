@@ -25,11 +25,11 @@
             </div>
             <div id="nav-menu" class="nav_menu">
                 <ul class="list">
-                    <li class="item"><a href="#" class="nav_link selected">Home</a></li>
-                    <li class="item"><a href="#" class="nav_link">About Me</a></li>
-                    <li class="item"><a href="#" class="nav_link">Skills</a></li>
-                    <li class="item"><a href="#" class="nav_link">Projects</a></li>
-                    <li class="item"><a href="#" class="nav_link">Contact</a></li>
+                    <li class="item"><a href="#home" class="nav_link selected">Home</a></li>
+                    <li class="item"><a href="#aboutme" class="nav_link">About Me</a></li>
+                    <li class="item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="item"><a href="#contact" class="nav_link">Contact</a></li>
                 </ul>
             </div>
             <div class="menu_icon" id="menu-icon">
@@ -39,18 +39,18 @@
      </header>
 
      <main>
-         <section class="home grid_box">
+         <section id="home" class="home grid_box">
              <div class="values">
                 <h1 class="h_title">Hi, <br> My name is <br> <span class="colored_name">Kanan Huseynli.</span> </h1>
-                <a href="#" class="btn">Contact me</a>
+                <a href="#contact" class="btn">Contact me</a>
              </div>
              <div class="flex_myinfo">
-                 <div class="sm_links">
-                 <div class="sm_icon"><i class="fab fa-linkedin-in"></i></div>
-                 <div class="sm_icon"><i class="fab fa-github"></i></div>
-                 <div class="sm_icon"><i class="fab fa-figma"></i></div>
-                 <div class="sm_icon"><i class="far fa-envelope"></i></div>
-             </div>
+                <div class="sm_links">
+                    <a htef="#" class="sm_icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a htef="#" class="sm_icon"><i class="fab fa-github"></i></a>
+                    <a htef="#" class="sm_icon"><i class="fab fa-figma"></i></a>
+                    <a htef="#" class="sm_icon"><i class="far fa-envelope"></i></a>
+                </div>
              <div class="portfolio_image">
                  <img class="photo" src="image/portfolio_image.jpeg" alt="myPhoto">
              </div>
@@ -58,7 +58,7 @@
              
          </section>
 
-         <section class="about_me section">
+         <section id="aboutme" class="about_me section">
              <h2 class="section_name">About Me</h2>
              <div class="about_part grid_box">
                  <div class="my_img">
@@ -71,7 +71,7 @@
              </div>
          </section>
 
-         <section class="skills section" id="my-skills">
+         <section id="skills" class="skills section" id="my-skills">
              <h2 class="section_name">Skills</h2>
 
              <div class="skills_part grid_box">
@@ -159,7 +159,7 @@
              </div>
          </section>
 
-         <section class="projects section">
+         <section id="projects" class="projects section">
              <h2 class="section_name">Projects</h2>
 
              <div class="projects_part grid_box">
@@ -184,7 +184,7 @@
              </div>
          </section>
 
-         <section class="contact_me section">
+         <section id="contact" class="contact_me section">
              <h2 class="section_name">Contact</h2>
 
              <div class="contact_part grid_box">
@@ -197,6 +197,19 @@
                  </form>
              </div>
          </section>
+
+         <footer class="portfolio_footer">
+             <h4 class="f_title">Kanan Huseynli</h4>
+
+             <div class="f_socLinks">
+                 <a href="#" class="f_socLinks_icon"><i class="fab fa-linkedin-in"></i></a>
+                 <a href="#" class="f_socLinks_icon"><i class="fab fa-github"></i></a>
+                 <a href="#" class="f_socLinks_icon"><i class="fab fa-figma"></i></a>
+                 <a href="#" class="f_socLinks_icon"><i class="far fa-envelope"></i></a>
+             </div>
+
+             <p>Created by <span class="colored_name">Kanan Huseynli</span> | &#169; 2021 Copyright all right reserved</p>
+         </footer>
      </main>
      <script src="main.js"></script>
 </body>
