@@ -263,6 +263,42 @@ a{
     align-items: center;
 }
 
+.percentage_bar{
+    position: absolute;
+    background-color: #ffcb36;
+    height: 5px;
+    border-radius: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.bar_html{
+    width: 80%;
+}
+.bar_css{
+    width: 60%;
+}
+.bar_js{
+    width: 50%;
+}
+.bar_c{
+    width: 60%;
+}
+.bar_cplusplus{
+    width: 70%;
+}
+.bar_rn{
+    width: 80%;
+}
+.bar_vue{
+    width: 70%;
+}
+.bar_react{
+    width: 70%;
+}
+.bar_figma{
+    width: 80%;
+}
 .projects{
     text-align: center;
 }
